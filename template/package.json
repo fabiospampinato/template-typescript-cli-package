@@ -1,0 +1,42 @@
+{
+  "name": "{{#scoped}}@{{owner}}/{{/scoped}}{{name}}",
+  "description": "{{description}}",
+  "version": "{{version}}",
+  "bin": "dist/bin/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "clean": "rimraf dist",
+    "compile": "tsc --skipLibCheck",
+    "compile:watch": "tsc --skipLibCheck --watch",
+    "lint": "tslint \"src/**/*.ts*\" --force",
+    "prepublish": "npm run clean && npm run lint && npm run compile"
+  },
+  "bugs": {
+    "url": "https://github.com/{{owner}}/{{name}}/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "{{author}}",
+    "email": "{{email}}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/{{owner}}/{{name}}.git"
+  },
+  "keywords": [
+    "//TODO"
+  ],
+	"dependencies": {
+    "caporal": "git://github.com/fabiospampinato/Caporal.js#cf0f5eeefb2e04cc07798bf4a45d6bda5e2a2f63",
+    "chalk": "^2.4.1",
+    "read-pkg-up": "^2.0.0",
+    "update-notifier": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.9.4",
+    "rimraf": "^2.6.0",
+    "tslint": "^4.4.2",
+    "typescript": "^3.0.3"
+  }
+}
