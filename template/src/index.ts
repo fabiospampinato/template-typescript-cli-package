@@ -1,7 +1,7 @@
 
-/* {{_ "upperCase" name}} */
+/* MAIN */
 
-function {{_ "camelCase" name}} () {}
+const {{_ "camelCase" name}} = {};
 
 /* EXPORT */
 
