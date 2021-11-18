@@ -3,7 +3,7 @@
 /* IMPORT */
 
 import {program, updater} from 'specialist';
-import {name, version} from '../package.json';
+import {name, version, description} from '../package.json';
 
 /* MAIN */
 
@@ -12,7 +12,7 @@ updater ({ name, version });
 program
   .name ( name )
   .version ( version )
-  .description ( '//TODO' )
+  .description ( description )
   .action ( () => {} );
 
 program.parse ();

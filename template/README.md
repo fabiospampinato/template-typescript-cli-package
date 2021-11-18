@@ -11,7 +11,7 @@ npm install -g {{#scoped}}@{{owner}}/{{/scoped}}{{name}}
 ## Usage
 
 <p align="center">
-  <img src="resources/cli.gif" width="850" alt="CLI">
+  <img src="resources/demo.gif" width="700" alt="Demo">
 </p>
 
 ## License

@@ -2,9 +2,9 @@
   "name": "{{#scoped}}@{{owner}}/{{/scoped}}{{name}}",
   "description": "{{description}}",
   "version": "{{version}}",
-  "bin": "dist/bin/index.js",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "bin": "dist/src/bin.js",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
   "scripts": {
     "clean": "rimraf dist",
     "compile": "tsc --skipLibCheck && tstei",
