@@ -2,17 +2,11 @@
 
 /* IMPORT */
 
-import {program, updater} from 'specialist';
-import {name, version, description} from '../package.json';
+import {bin} from 'specialist';
+import CLI from '.';
 
 /* MAIN */
 
-updater ({ name, version });
-
-program
-  .name ( name )
-  .version ( version )
-  .description ( description )
-  .action ( () => {} );
-
-program.parse ();
+bin ( '{{name}}', '{{description}}' )
+  /* RUN */
+  .run ();
