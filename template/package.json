@@ -3,6 +3,7 @@
   "repository": "github:{{owner}}/{{name}}",
   "description": "{{description}}",
   "version": "{{version}}",
+  "type": "module",
   "bin": "dist/bin.js",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
