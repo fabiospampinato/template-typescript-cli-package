@@ -1,5 +1,5 @@
 {
-  "name": "{{#scoped}}@{{owner}}/{{/scoped}}{{name}}",
+  "name": "{{#if scoped}}@{{owner}}/{{/if}}{{name}}",
   "repository": "github:{{owner}}/{{name}}",
   "description": "{{description}}",
   "version": "{{version}}",
@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@types/node": "^20.4.2",
-    "tsex": "^2.2.0",
-    "typescript": "^4.9.0"
+    "tsex": "^2.2.4",
+    "typescript": "^4.9.5"
   }
 }

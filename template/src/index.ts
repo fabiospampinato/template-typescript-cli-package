@@ -1,8 +1,8 @@
 
 /* MAIN */
 
-const {{_ "camelCase" name}} = {};
+const {{_.camelCase ( name )}} = {};
 
 /* EXPORT */
 
-export default {{_ "camelCase" name}};
+export default {{_.camelCase ( name )}};

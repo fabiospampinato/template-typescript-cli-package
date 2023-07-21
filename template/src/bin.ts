@@ -3,7 +3,7 @@
 /* IMPORT */
 
 import {bin} from 'specialist';
-import CLI from '.';
+import {{_.camelCase ( name )}} from '.';
 
 /* MAIN */
 

@@ -1,12 +1,10 @@
 # template-typescript-cli-package
 
-A template for starting a new typescript CLI package quickly.
+A template for creating a new TypeScript CLI package quickly.
 
 ## Install
 
-Install the [`template`](https://github.com/fabiospampinato/template) CLI tool in your system.
-
-Install the template locally with:
+Install [`template`](https://github.com/fabiospampinato/template), then install this template with:
 
 ```sh
 template install fabiospampinato/template-typescript-cli-package typescript-cli-package
@@ -14,10 +12,10 @@ template install fabiospampinato/template-typescript-cli-package typescript-cli-
 
 ## Usage
 
-Create a new typescript CLI package with:
+Create a new TypeScript CLI package with:
 
 ```sh
-template create typescript-cli-package my-cli-package
+template new typescript-cli-package my-cli-package
 ```
 
 ## License

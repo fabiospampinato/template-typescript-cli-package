@@ -1,11 +1,11 @@
-# {{_ "startCase" name}}
+# {{_.startCase ( name )}}
 
 {{description}}
 
 ## Install
 
 ```sh
-npm install -g {{#scoped}}@{{owner}}/{{/scoped}}{{name}}
+npm install -g {{#if scoped}}@{{owner}}/{{/if}}{{name}}
 ```
 
 ## Usage
