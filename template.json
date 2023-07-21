@@ -17,7 +17,8 @@
       "type": "string"
     },
     "scoped": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     }
   }
 }
