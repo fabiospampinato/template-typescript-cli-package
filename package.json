@@ -1,5 +1,6 @@
 {
   "private": true,
   "name": "template-typescript-cli-package",
+  "description": "A template for creating a new TypeScript CLI package quickly.",
   "type": "module"
 }
